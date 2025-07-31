@@ -23,7 +23,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ChatWidget from '../components/ChatWidget';
 import { useAuth } from '../contexts/AuthContext';
-import { mockJobs, mockNews } from '../../mock';
+import { mockJobs, mockNews } from '../mock';
 
 const DashboardPage = () => {
   const { user } = useAuth();
