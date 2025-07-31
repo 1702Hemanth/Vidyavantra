@@ -7,7 +7,7 @@ import { Badge } from '../components/ui/badge';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ChatWidget from '../components/ChatWidget';
-import { mockNews } from '../../mock';
+import { mockNews } from '../mock';
 
 const NewsPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
