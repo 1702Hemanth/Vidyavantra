@@ -7,7 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card'
 import { Badge } from '../components/ui/badge';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { mockChatbotResponses } from '../../mock';
+import { mockChatbotResponses } from '../mock';
 
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
 const API = `${BACKEND_URL}/api`;
