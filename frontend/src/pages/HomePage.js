@@ -6,7 +6,7 @@ import { Card, CardContent } from '../components/ui/card';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ChatWidget from '../components/ChatWidget';
-import { mockNews, mockTestimonials } from '../../mock';
+import { mockNews, mockTestimonials } from '../mock';
 
 const HomePage = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
