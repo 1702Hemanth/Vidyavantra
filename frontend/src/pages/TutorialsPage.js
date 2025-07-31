@@ -7,7 +7,7 @@ import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '../componen
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import ChatWidget from '../components/ChatWidget';
-import { mockTutorials } from '../../mock';
+import { mockTutorials } from '../mock';
 
 const TutorialsPage = () => {
   const [openTutorials, setOpenTutorials] = useState({});
